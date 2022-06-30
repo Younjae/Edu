@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { Component, Fragment } from 'react';
+import MyName from './MyName';
+import Counter from './Counter';
 
 class App extends Component{
   render(){
 
     const name = 'react';
-
     const style = {
 
       backgroundColor: 'black',
@@ -34,6 +35,8 @@ class App extends Component{
             1+1===2 && (<div>맞아요! 이것은 && 연사자입니다.</div>)
           }
         </div>
+        <MyName></MyName>
+        <Counter></Counter>
       </Fragment>
     )
   }
